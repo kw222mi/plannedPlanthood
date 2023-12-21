@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+html {
+    --green: #0A846E;
+    --brown: #9E6D52;
+}
+
+html,
+body {
+    height: 100dvh;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/*--------HEADER-----------*/
+header{
+    display: flex;
+}
+
+.header-img-div{
+    background-image: url(img/hand.jpg);
+    background-size: 300px;
+    
+}
+
+.header-brown{
+    background-color: var(--brown);
+}
+
+.header-green{
+    background-color: var(--green);
+
+}
