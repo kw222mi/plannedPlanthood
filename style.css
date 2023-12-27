@@ -210,7 +210,6 @@ header{
 }
 
 @media screen and (min-width: 650px) {
-
 #menu {
     display: none;
 }
@@ -245,7 +244,6 @@ header{
     font-size: 24px ;
     font-family: var(--maven), sans-serif;
     font-weight: 500;
-    
 }
 
 .planned-content-container {
@@ -275,6 +273,7 @@ header{
     font-weight: 700;
     border-radius: 7px;
     margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
  
 .planned-img {
@@ -287,6 +286,57 @@ header{
 
 .planned-hr {
     border-top: 3px solid var(--green);
-    width: 25%;
-    
+    width: 40%;
+    margin-top: 30px;
+
 }
+
+@media screen and (min-width: 650px) {
+
+    .planned-planthood {
+            margin-top: 100px;
+        }
+    
+        .planned-h1 {
+            font-size: 48px;           
+        }
+    
+        .planned-content-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .planned-text-container {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            order: 1;
+        }
+    
+        .planned-p {
+            text-align: left;
+        }
+    
+        .planned-btn {
+            padding: 10px 30px;
+            align-self: flex-end;
+        }
+    
+        .planned-img {
+            width: 30%;
+            margin: 40px 20px 0px 20px;
+            order: 0;
+        }
+    
+        .planned-hr {
+            border-top: 3px solid var(--green);
+            width: 40%;
+            margin-top: 50px;
+    
+        }
+
+}
+
+
