@@ -1,10 +1,13 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
     --green: #0A846E;
     --brown: #9E6D52;
+    --darkgreen: #055647;
+    --maven: Maven Pro;
 }
 
 html,
@@ -34,7 +37,6 @@ header {
 }
 
 .header-icon-div {
-    
     display: flex;
     flex-direction: row;
 }
@@ -43,8 +45,8 @@ header {
     background-color: var(--brown);
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 50%;
     height: 150px;
 }
@@ -53,8 +55,8 @@ header {
     background-color: var(--green);
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 50%;
     height: 150px;
 }
@@ -62,16 +64,15 @@ header {
 @media screen and (min-width: 650px) {
 header{
     display: flex;
-    height: 540px;
+    height: 500px;
 }
 
 .header-img-div{
     background-image: url(img/hand_small.jpg);
-    background-position: 0px -200px;
+    background-position: center;
     width: 50%;
     display: flex;
     justify-content: center;
-    
 }
 
 .header-img {
@@ -88,17 +89,39 @@ header{
     background-color: var(--brown);
     display: flex;
     justify-content: center;
-    height: 270px;
+    height: 250px;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 100%
 }
 
 .header-green{
     background-color: var(--green);
     display: flex;
     justify-content: center;
-    height: 270px;
+    height: 250px;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 100%
 }
 }
+
+/*--------- NAV ---------*/
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 30px 20px 30px;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+
+}
+ a {
+    text-decoration: none;
+    color: var(--darkgreen);
+    font-size: 20px;
+    
+ }
+
+ 
