@@ -887,18 +887,23 @@ input{
 
 .image-container {
     display: grid;
-        grid: auto-flow min-content /1fr 1fr;
-        justify-items: center;
-        background-color: #9E6D52;
-        gap: 2rem;
+    grid: auto-flow /1fr 1fr;
+    justify-items: center;
+    background-color: var(--brown);
+    row-gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    column-gap: 1rem;
            
 }
 
 .grid-img {
     background-size: cover;
-        width: 175px;
-        height: 220px;
+        width: 173px;
+        height: 90px;
+        object-fit: cover;
         display: flex;
         justify-content: center;
+        object-position: 25% 50%;
 }
 
