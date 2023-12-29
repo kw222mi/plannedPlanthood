@@ -826,7 +826,6 @@ width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 30px;   
-    
 }
 
 label{
@@ -838,18 +837,11 @@ label{
 
 .ett, .tva {
     display: flex;
-    flex-direction: column;
-    
-    
-}
-
-.label-plant {
-   
+    flex-direction: column;    
 }
 
 .label-date {
     margin-top: 5px;
- 
 }
 
 input{
@@ -858,7 +850,6 @@ input{
     width: 357px;
     height: 52px;    
     border-radius: 7px;
-   
 }
 
 .add-btn {
@@ -875,12 +866,60 @@ input{
         box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+@media screen and (min-width: 650px) {
+    .add-h1 {
+            font-size: 32px;
+            text-align: left;     
+            margin-left: 10px;       
+        }
+    
+        .add-form {
+            display: grid;
+            grid: auto-flow / 1fr 1fr ;           
+            margin-top: 30px;
+            grid-template-areas: "ett tva"
+                                "button button";
+
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 3%;
+        }
+    
+        label {
+            font-size: 20px;
+        }
+    
+        .ett,
+        .tva {
+            display: flex;
+            flex-direction: column;
+        }
+        .ett {
+            grid-area: ett;
+        }
+
+        .tva {
+            grid-area: tva;
+            }
+    
+        .add-btn {
+            display: flex;
+            justify-self: center;
+            font-size: 24px;
+            grid-area: button;
+        }
+}
+
 /*--------------- Card section -------------*/
 
 .card-container-my-page-2 {
     display: grid;
     grid: auto-flow min-content /1fr 1fr;
     justify-items: center;
+}
+
+@media screen and (min-width: 650px) { 
+    
 }
 
 /*------------ Image section -------------*/
@@ -894,6 +933,7 @@ input{
     padding-top: 2rem;
     padding-bottom: 2rem;
     column-gap: 1rem;
+    margin-top: 30px;
            
 }
 
