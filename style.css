@@ -939,6 +939,10 @@ input{
     justify-items: center;
 }
 
+.hide-in-mobile {
+    display: none;
+}
+
 @media screen and (min-width: 650px) { 
     .card-container-my-page-2 {
         display: grid;
@@ -947,7 +951,12 @@ input{
         gap: 1rem;
         margin-left: 10px;
         }
+    .hide-in-mobile {
+        display: inline-block !important;
+    }
 }
+
+
 
 /*------------ Image section -------------*/
 
