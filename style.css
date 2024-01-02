@@ -43,8 +43,7 @@ header {
     flex-direction: row;
 }
 
-.header-brown {
-    background-color: var(--brown);
+.header-icon {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -53,14 +52,12 @@ header {
     height: 150px;
 }
 
+.header-brown {
+    background-color: var(--brown);
+}
+
 .header-green {
     background-color: var(--green);
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 50%;
-    height: 150px;
 }
 
 @media screen and (min-width: 650px) {
@@ -87,18 +84,7 @@ header{
     flex-direction: column;
 }
 
-.header-brown{
-    background-color: var(--brown);
-    display: flex;
-    justify-content: center;
-    height: 250px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%
-}
-
-.header-green{
-    background-color: var(--green);
+.header-icon {
     display: flex;
     justify-content: center;
     height: 250px;
@@ -221,13 +207,12 @@ header{
     padding: 20px 30px 20px 30px;
     font-family: var(--maven), sans-serif;
     box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
-
 }
+
  a {
     text-decoration: none;
     color: var(--darkgreen);
     font-size: 20px;
-    
  }
 }
 
@@ -240,6 +225,7 @@ header{
     align-items: center;
     margin-top: 150px;
 }
+
 .planned-h1 {
     color: var(--green);
     font-size: 24px ;
@@ -300,7 +286,6 @@ header{
 }
 
 @media screen and (min-width: 650px) {
-
     .planned-planthood {
             margin-top: 100px;
         }
@@ -342,7 +327,6 @@ header{
             border-top: 3px solid var(--green);
             width: 40%;
             margin-top: 50px;
-    
         }
 }
 
@@ -352,7 +336,6 @@ header{
     display: grid;
     grid: auto-flow  min-content /1fr 1fr;
     justify-items: center;
-
 }
 
 .card-h3 {
@@ -369,6 +352,7 @@ header{
     box-shadow: 3px 4px 4px 0px #00000040;
    padding-bottom: 10px;
 }
+
 .card-img {
 background-position: center;
     background-size: cover;
@@ -403,16 +387,14 @@ background-position: center;
 }
 
 .card-icon {
-padding: 30px 20px 30px 20px;
-   width: 150px;
-   
+    padding: 30px 20px 30px 20px;
+    width: 150px;
 }
 
 .card-info-1{
     display: flex;
     justify-content: space-between;
     margin-top: 7px;
-
 }
 
 .card-info-2 {
@@ -441,7 +423,6 @@ padding: 30px 20px 30px 20px;
     font-size: 10px;
     margin-left: 3px;
     align-self: self-end;
-    
 }
 
 .material-symbols-outlined {
@@ -485,7 +466,6 @@ justify-items: center;
             display: grid;
             grid: auto-flow min-content /1fr 1fr 1fr;
             justify-items: center;
-    
         }
     
         .card-h3 {
@@ -544,7 +524,6 @@ justify-items: center;
             padding: 5px 15px;
             border-radius: 9px;
         }
-
 }
 
 /*---------- Section 3 -------------*/
@@ -565,8 +544,8 @@ justify-items: center;
     align-items: center;
     width: 240px;
     height: 240px;
-    
 }
+
 .section-3-icon {
     padding: 40px;
     width: 200px;
@@ -579,40 +558,38 @@ justify-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .section-3-h3 {
     font-family: var(--openSans), sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        text-align: center;
-        margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .section-3-p {
     font-family: Open Sans;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: center;
-        margin-top: 10px;
-        margin-left: 7px;
-        margin-right: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
-.section-3-btn {
- background-color: var(--green);
- padding: 10px 20px;
- color: white;
- width: fit-content;
- font-family: var(--maven),
- sans-serif;
- font-weight: 700;
- border-radius: 7px;
- margin-top: 30px;
- box-shadow: 0px 4px 4px 0px #00000040;
 
+.section-3-btn {
+    background-color: var(--green);
+    padding: 10px 20px;
+    color: white;
+    width: fit-content;
+    font-family: var(--maven), sans-serif;
+    font-weight: 700;
+    border-radius: 7px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 @media screen and (min-width: 650px) {
@@ -666,7 +643,6 @@ justify-items: center;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    
 }
 
 .footer-1 {
@@ -678,14 +654,14 @@ justify-items: center;
 
 .footer-2 {
     padding-top: 120px;
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- align-items: center;
-opacity: 0.7;
-background-color: black;
-height: 387px;
-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+    background-color: black;
+    height: 387px;
+    width: 100%;
 }
 
 .footer-text {
@@ -707,8 +683,8 @@ width: 100%;
     font-family: var(--maven),sans-serif;
     font-weight: 400;
     font-size: 12px;
-   
 }
+
 .mail {
     
    display: flex;
@@ -793,6 +769,7 @@ width: 100%;
         display: flex;
         align-items: center;
     }
+
         .to-the-top {
             background-color: white;
             font-family: var(--openSans), sans-serif;
@@ -804,7 +781,6 @@ width: 100%;
             align-items: center;
             height: 50px;
         }
-
 }
 
 
@@ -878,8 +854,7 @@ input{
         padding: 10px 20px;
         color: white;
         width: fit-content;
-        font-family: var(--openSans),
-            sans-serif;
+        font-family: var(--openSans), sans-serif;
         font-weight: 700;
         font-size: 16px;
         border-radius: 7px;
@@ -900,7 +875,6 @@ input{
             margin-top: 30px;
             grid-template-areas: "ett tva"
                                 "button button";
-
             justify-content: space-around;
             align-items: center;
             margin-left: 3%;
@@ -1023,4 +997,5 @@ input{
            
         }
 }
+
 
