@@ -451,7 +451,6 @@ justify-items: center;
 }
 
 @media screen and (min-width: 900px) {
-
     .card-container {
             display: grid;
             grid: auto-flow min-content /1fr 1fr 1fr;
@@ -505,7 +504,6 @@ justify-items: center;
 }
 
 /*---------- Section 3 -------------*/
-
 .section-3-container {
     display: flex;
     flex-direction: column;
@@ -655,7 +653,6 @@ justify-items: center;
 .mail, .phone {
    display: flex;
    align-items: center;
-
 }
 
 .to-the-top {
