@@ -326,6 +326,10 @@ header{
             width: 40%;
             margin-top: 50px;
         }
+
+        .green-button {
+            font-size: 24px !important;
+        }
 }
 
 /*-----------Card container -----------*/
@@ -507,7 +511,8 @@ justify-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .section-3-icon-div {
@@ -560,6 +565,8 @@ justify-items: center;
             display: flex;
             flex-direction: row;
             justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
         }
     
         .section-3-icon-div {
@@ -591,10 +598,6 @@ justify-items: center;
             text-align: left;
             font-size: 16px;
         }
-
-        .green-button {
-            font-size: 24px !important;
-        }
 }
 
 /*------------Footer --------------*/ 
@@ -608,7 +611,6 @@ justify-items: center;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    position: relative;
 }
 
 .footer-1 {
@@ -637,11 +639,11 @@ justify-items: center;
 }
 
 .footer-contact-container {
-    display: grid;
-    grid: auto-flow / 1fr 1fr;
-    gap: 5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
     color: white;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .footer-contact-text {
@@ -650,14 +652,10 @@ justify-items: center;
     font-size: 12px;
 }
 
-.mail {
+.mail, .phone {
    display: flex;
    align-items: center;
-}
 
-.phone {
-    display: flex;
-    align-items: center;
 }
 
 .to-the-top {
@@ -695,10 +693,12 @@ justify-items: center;
         order: 0;
     }
 
-    .footer-contact-container {
-        gap: 8rem;
-        padding-top: 200px;
-    }
+   .footer-contact-container {
+       display: flex;
+       justify-content: space-between;
+       width: 80%;
+       color: white;
+   }
 }
 
 /*-----------------Mina Sidor ---------------*/
