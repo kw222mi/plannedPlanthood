@@ -648,25 +648,24 @@ justify-items: center;
 
 .footer-contact-container {
     display: grid;
-    grid: auto-flow min-content / 1fr 1fr;
-    gap: 15rem;
+    grid: auto-flow / 1fr 1fr;
+    justify-content: space-between;
     color: white;
     padding-top: 90px;
 }
 
-.footer-contact {
+.footer-contact-text {
     font-family: var(--maven),sans-serif;
     font-weight: 400;
     font-size: 12px;
 }
 
 .mail {
-    
    display: flex;
    align-items: center;
 }
+
 .phone {
-    
     display: flex;
         align-items: center;
 }
@@ -734,13 +733,11 @@ justify-items: center;
     }
 
     .mail {
-
         display: flex;
         align-items: center;
     }
 
     .phone {
-
         display: flex;
         align-items: center;
     }
