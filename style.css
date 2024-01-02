@@ -554,7 +554,6 @@ justify-items: center;
     margin-right: 7px;
 }
 
-
 @media screen and (min-width: 650px) {
 
     .section-3-container {
@@ -591,6 +590,10 @@ justify-items: center;
         .section-3-p {
             text-align: left;
             font-size: 16px;
+        }
+
+        .green-button {
+            font-size: 24px !important;
         }
 }
 
@@ -722,7 +725,6 @@ justify-items: center;
 }
 
 /*--------------- Add plant form ----------------*/
-
 .add-h1 {
     font-size: 24px;
     font-family: var(--openSans), sans-serif;
@@ -837,8 +839,6 @@ input{
     }
 }
 
-
-
 /*------------ Image section -------------*/
 
 .image-container {
@@ -880,7 +880,6 @@ input{
         width: 150px;
         height: 237px;
         object-fit: cover;
-
     }
 }
 
@@ -904,5 +903,3 @@ input{
            
         }
 }
-
-
