@@ -561,7 +561,6 @@ justify-items: center;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            margin-top: 30px;
         }
     
         .section-3-icon-div {
@@ -610,7 +609,6 @@ justify-items: center;
 }
 
 .footer-1 {
-   
     height: 387px;
     display: flex;
     justify-content: center;
@@ -690,60 +688,15 @@ justify-items: center;
     .footer-2 {
         width: 50%;
         padding-top: 170px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        opacity: 0.7;
-        background-color: black;
         height: 644px;
         order: 0;
     }
 
-    .footer-text {
-        font-size: 32px;
-        font-family: var(--maven), sans-serif;
-        font-weight: 500;
-        color: white;
-    }
-
     .footer-contact-container {
-        display: grid;
-        grid: auto-flow min-content / 1fr 1fr;
         gap: 8rem;
-        color: white;
         padding-top: 200px;
     }
-
-    .footer-contact {
-        font-family: var(--maven), sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-    }
-
-    .mail {
-        display: flex;
-        align-items: center;
-    }
-
-    .phone {
-        display: flex;
-        align-items: center;
-    }
-
-        .to-the-top {
-            background-color: white;
-            font-family: var(--openSans), sans-serif;
-            font-weight: 400;
-            font-size: 12px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 50px;
-        }
 }
-
 
 /*-----------------Mina Sidor ---------------*/
 
